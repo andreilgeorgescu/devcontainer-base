@@ -1,0 +1,15 @@
+name: Development
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+# permissions: read-all
+
+jobs:
+  development:
+    uses: andreilgeorgescu/workflow-devcontainer-image/.github/workflows/ci.yaml@main
+    permissions:
+      contents: read
+      packages: write
