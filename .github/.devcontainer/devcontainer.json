@@ -131,5 +131,6 @@
         }
       }
     }
-  }
+  },
+  "updateContentCommand": "trunk init --lock --no-to-all || trunk install || trunk actions enable trunk-check-pre-push || trunk actions enable trunk-fmt-pre-commit"
 }
