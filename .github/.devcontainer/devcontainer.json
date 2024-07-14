@@ -3,7 +3,7 @@
   "features": {
     // "ghcr.io/devcontainers-contrib/features/act:1": {},
     // "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
-    "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
+    // "ghcr.io/trunk-io/devcontainer-feature/trunk:1": {}
   },
   "customizations": {
     "vscode": {
@@ -132,5 +132,5 @@
       }
     }
   },
-  "updateContentCommand": "trunk init --lock --no-to-all || trunk install || trunk actions enable trunk-check-pre-push || trunk actions enable trunk-fmt-pre-commit"
+  // "updateContentCommand": "trunk init --lock --no-to-all || trunk install || trunk actions enable trunk-check-pre-push || trunk actions enable trunk-fmt-pre-commit"
 }
